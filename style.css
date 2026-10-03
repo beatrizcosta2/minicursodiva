@@ -1,28 +1,29 @@
 :root {
     --rosa-bebe: #d497b2;
     --laranja: #ff6419;
-    --fundo: #fff5fa;
-    --texto: #1b1515;
-    --link: #e12562;
+    --fundo-bege: #fff5fa;
+    --texto-preto: #1b1515;
+    --link-rosa: #e12562;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    background-color: var(--fundo)
-    color: var(--texto)
+    background-color: var(--fundo-bege);
+    color: var(--texto-preto)
 }
-    h1, h2, h3 {
-        font-family: arial, Arial, Helvetica, sans-serif,
-    }
+
+h1, h2, h3 {
+    font-family: arial, Helvetica, sans-serif;
+}
 
 a {
     text-decoration: none;
-    color: var(--link);
+    color: var(--link-rosa);
 }
 
 a:hover{
-    color: var(--rosa-bebe);
+    color: var(--laranja);
 }
 
 .navbar {
@@ -30,8 +31,6 @@ a:hover{
     justify-content: space-between;
     align-items: center;
     padding: 0 50px;
-    background: white;
-
-
+    background: var(--fundo-bege);
 }
 
